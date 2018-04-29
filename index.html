@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <title>Responsive CSS Task</title>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+  <div class="page-container">
+    <header class="header">
+      <div class="header-bar">
+        <div class="logo-container">
+          <img src="resources/brand-white.png" class="logo">
+        </div>
+        <h1 class="title">Header</h1>
+        <nav class="nav-container hide-on-tablet">
+          <ul class="horizontal nav">
+            <li class="nav-item"><a href="">Link 1</a></li>
+            <li class="nav-item"><a href="">Link 2</a></li>
+            <li class="nav-item"><a href="">Link 3</a></li>
+            <li class="nav-item"><a href="">Link 4</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-bar">
+        <div class="search-bar hide-on-mobile">
+          <form>
+            <input type="search" placeholder="Search" class="search-input-field">
+            <button type="submit" class="search-submit-button">Search</button>
+          </form>
+        </div>
+        <div class="search-bar hidden show-on-mobile">
+          <button type="button">Button</button>
+        </div>
+        <div class="profile-bar hide-on-mobile">
+          <img src="resources/avatar.jpg" alt="avatar" class="round avatar">
+          <span class="login">User Name</span>
+        </div>
+      </div>
+    </header>
+  </div>
+</body>
+</html>
